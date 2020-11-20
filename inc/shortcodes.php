@@ -5,7 +5,7 @@ include dirname(__FILE__) . '/admin.php';
 } else {
 
 function champion_application_function($attrs, $content = null) {
-
+        wp_enqueue_style( 'register_style' );
         ob_start();
         include( smartup_plugin_dir_path().'templates/reg-form.php');
         $buffer = ob_get_clean();
@@ -13,7 +13,7 @@ function champion_application_function($attrs, $content = null) {
         if (isset($options['shortcode'])) {
             $buffer = do_shortcode($buffer);
         }
-        wp_enqueue_style( 'register_style' );
+
         wp_enqueue_script( 'register_script' );
     return $buffer;
 }

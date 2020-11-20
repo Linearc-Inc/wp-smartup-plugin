@@ -5,14 +5,15 @@ document.addEventListener("DOMContentLoaded", function (e) {
     var pages = document.querySelectorAll('#registration-form .tab-body li')
     var headings= document.querySelectorAll('#registration-form .tab-header li')
 
-
-
     pages[0].classList.add('active')
     headings[0].classList.add('active')
     prev_btn.style.display="none"
 
-
     next_btn.addEventListener('click',function (e){
+        console.log(form_validate('#registration-form-'+page_number))
+        if(!form_validate('#registration-form-'+page_number)){
+            return
+        }
         if(this.innerHTML=="Submit"){
            var form1=document.querySelector("#registration-form-1")
            var form2=document.querySelector("#registration-form-2")
@@ -112,5 +113,11 @@ document.addEventListener("DOMContentLoaded", function (e) {
         }
     }
 
+    function form_validate(id_form_selector){
+        "use strict";
+        var form = document.querySelector(id_form_selector);
+        console.log(form)
+        return form.reportValidity();
+    }
 
 });

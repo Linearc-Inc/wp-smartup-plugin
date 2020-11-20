@@ -30,7 +30,7 @@ require_once plugin_dir_path( __FILE__ ).'/inc/enqueue.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/ajax.php';
 
 if ( is_admin() ) {
-    new Smartup\Plugin\Updater( __FILE__, 'Linearc-Inc', "wp-smartup-plugin");
+  //  new Smartup\Plugin\Updater( __FILE__, 'Linearc-Inc', "wp-smartup-plugin");
 }
 
 register_activation_hook( __FILE__, 'add_user_types' );
