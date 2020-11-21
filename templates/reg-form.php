@@ -102,6 +102,8 @@
                       id="date_of_birth"
                       name="date_of_birth"
                       type="date"
+                      min="<?php echo date("Y")-28 ?>-01-01"
+                      max="<?php echo date("Y")-16 ?>-12-31"
                     />
                   </div>
                 </div>
