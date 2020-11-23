@@ -24,14 +24,17 @@ function smartup_plugin_dir_url(){
 }
 
 require_once plugin_dir_path( __FILE__ ).'/classes/Updater.php';
+require_once plugin_dir_path( __FILE__ ).'/classes/PageTemplater.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/page-templates.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/custom-post-type-stories.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/custom-post-type-slides.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/custom-post-type-innovations.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/users.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/admin.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/shortcodes.php';
+require_once plugin_dir_path( __FILE__ ).'/inc/customiser.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/enqueue.php';
 require_once plugin_dir_path( __FILE__ ).'/inc/ajax.php';
-
-if ( is_admin() ) {
-  //  new Smartup\Plugin\Updater( __FILE__, 'Linearc-Inc', "wp-smartup-plugin");
-}
 
 register_activation_hook( __FILE__, 'add_user_types' );
 register_deactivation_hook(__FILE__, 'remove_user_types' );
