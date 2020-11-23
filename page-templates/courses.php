@@ -190,13 +190,17 @@
                                 <h3 class="entry-title d-flex justify-content-between align-items-center active">What is Art & Design<span class="arrow-r"></span></h3>
 
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                                    <p>Art education is a combination of human activities in creating visual objects/products and artworks through the use of different available resources, expressing ones imaginative and technical skills into product design.</p>
                                 </div>
 
                                 <h3 class="entry-title d-flex justify-content-between align-items-center">Why Art & Design<span class="arrow-r"></span></h3>
 
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                                    <p>
+                                      Art education aims at equipping champions with creative knowledge and advancing artistic skills on how to come up with their personal art works.
+                                      <br><br>
+                                      Opening one’s mind to be able to utilize and use the available and surrounding resources to come up with products for self-employment or gain access to jobs basing on provided skills.
+                                    </p>
                                 </div>
 
                                 <h3 class="entry-title d-flex justify-content-between align-items-center">What is covered under Art & Design<span class="arrow-r"></span></h3>
