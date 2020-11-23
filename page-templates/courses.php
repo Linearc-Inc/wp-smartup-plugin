@@ -206,7 +206,12 @@
                                 <h3 class="entry-title d-flex justify-content-between align-items-center">What is covered under Art & Design<span class="arrow-r"></span></h3>
 
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris.</p>
+                                    <p>
+                                    Jewelry Design <br>
+                                    Creativity Classes in Different Handcraft Making <br>
+                                    Art as Business <br>
+                                    Marketing and Branding
+                                    </p>
                                 </div>
                             </div>
                         </div>
