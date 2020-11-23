@@ -3,7 +3,7 @@
  * Plugin Name:Smartup Manger
  * Plugin URI: https://www.linearc.biz/profile/
  * Description: This creates suscribe, unsuscribe and email verification compatibility for linearc site.
- * Version: 1.3.7
+ * Version: 1.4.0
  * GitHub Plugin URI: https://github.com/Linearc-Inc/wp-smartup-plugin
  * Author: Isakiye Afasha
  * Author URI: http://www.iamafasha.com
