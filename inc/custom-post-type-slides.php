@@ -102,7 +102,7 @@ function save_slide_data($post_id)
         return;
     }
     remove_action('save_post', 'save_slide_data');
-    update_post_meta($post_id, '_slide_sub_title_key', sanitize_text_field($_POST['_slide_sub_title_key']));
+    update_post_meta($post_id, '_slide_sub_title_key', sanitize_text_field($_POST['slide_sub_title']));
     update_post_meta($post_id, '_slide_text_key', sanitize_text_field($_POST['slide_text']));
     update_post_meta($post_id, '_slide_btn2_link_key', sanitize_url($_POST['slide_btn2_link'],'https'));
     update_post_meta($post_id, '_slide_btn1_link_key', sanitize_url($_POST['slide_btn1_link'],'https'));
